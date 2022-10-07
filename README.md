@@ -1,4 +1,4 @@
-# babymoon
+# babymoons
 Are more babies born on/around the full moon?
 
 https://www.kaggle.com/datasets/fivethirtyeight/fivethirtyeight-births-dataset
