@@ -4,8 +4,8 @@
 This repo is intended to fulfill the project requirements for the Code Louisville Data Analysis 2 Class.
 
 This project was inspired after seeing another Code Louisville student's project investigating whether there are more of certain types of injuries leading to emergency room visits on the full moon. She chose to investigate this because of the conventional wisdom that people tend to behave with less inhibitions when there is a full moon. I really enjoy data analyses that look at conventional wisdom to see if it holds water, and this project reminded me that I once heard a labor and delivery nurse claim that more babies are born on the full moon. I chose to investigate this using two Kaggle datasets:
-- [fivethirtyeight births] (https://www.kaggle.com/datasets/fivethirtyeight/fivethirtyeight-births-dataset)
-- [full moon calendar] (https://www.kaggle.com/datasets/lsind18/full-moon-calendar-1900-2050)
+- [fivethirtyeight births](https://www.kaggle.com/datasets/fivethirtyeight/fivethirtyeight-births-dataset)
+- [full moon calendar](https://www.kaggle.com/datasets/lsind18/full-moon-calendar-1900-2050)
 
 I chose a Juptyer notebook (.ipynb) format so I could inspect the results of my analysis as I went along and also to walk the viewer through the analysis. After importing 3 csv files and cleaning up the data, I was intially surprised to find that the births data was not normally distributed, but was bimodal instead. It turned out that there are more births on weekdays than weekends, and it was more useful to treat those two sets of data as separate groups. After splitting out weekdays and weekends, I compared the births on dates with a full moon against all other dates and found no significant difference.
 
