@@ -31,7 +31,7 @@ Note: I recommend running this using Visual Studio Code if you want to inspect t
 
 4. Install packages in the requirements.txt file: `pip install -r requirements.txt`
 
-5. Finally, run `main.ipynb` or open the notebook in an IDE and walk through the analysis step by step.
+5. Finally, open `main.ipynb` in an IDE and run all or walk through the analysis step by step.
 
 ## Code Louisville Requirements
 
